@@ -1,25 +1,35 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>qmdj_dlgClass</class>
- <widget class="QDialog" name="qmdj_dlgClass" >
-  <property name="objectName" >
-   <string notr="true">qmdj_dlgClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QDialog" name="qmdj_dlgClass">
+  <property name="geometry">
    <rect>
-	<x>0</x>
-	<y>0</y>
-	<width>600</width>
-	<height>400</height>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>qmdj_dlg</string>
   </property>
+  <widget class="QLabel" name="label_message">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>451</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>nothing</string>
+   </property>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="qmdj_dlg.qrc"/>
+  <include location="qmdj_dlg.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>

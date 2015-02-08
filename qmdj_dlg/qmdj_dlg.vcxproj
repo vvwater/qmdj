@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CalendarUtil.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_qmdj_dlg.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -116,7 +117,9 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CalendarUtil.h" />
     <ClInclude Include="GeneratedFiles\ui_qmdj_dlg.h" />
+    <ClInclude Include="vsop87d_table.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="qmdj_dlg.qrc">

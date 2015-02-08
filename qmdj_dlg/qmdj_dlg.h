@@ -11,6 +11,7 @@ class qmdj_dlg : public QDialog
 public:
 	qmdj_dlg(QWidget *parent = 0);
 	~qmdj_dlg();
+	void calc();
 
 private:
 	Ui::qmdj_dlgClass ui;
